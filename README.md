@@ -5,11 +5,11 @@ This project applies **Multiple Linear Regression** and **Hypothesis Testing (F-
 
 ## Key Objectives
 - Test if the fatigue-life model parameters are consistent across different bearing manufacturers.
-- Validate the historical assumption that the load-life exponent `p = 3`.
+- Validate the historical assumption that the load-life exponent $ `p = 3`. $
 - Perform a detailed analysis on the bearing types from a single manufacturer (Company B).
 
 ## Methodology
-- **Model:** Generalized Fatigue-Life Model: $$`L = (fZ^a D^b / P)^p`$$
+- **Model:** Generalized Fatigue-Life Model: $ L = (fZ^a D^b / P)^p $
 - **Linearization:** Transformed to a log-linear regression model: `ln(L) = α + β₁ln(Z) + β₂ln(D) + β₃ln(P)`
 - **Statistical Technique:** Nested F-Tests for comparing regression models and testing hypotheses about parameter equality.
 - **Tools:** Analysis was performed using R (or Python/other - specify what you used).
