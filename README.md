@@ -28,7 +28,8 @@ This project applies **Multiple Linear Regression** and **Hypothesis Testing (F-
 
 ## Files in this Repository
 - `statPROJECT2ndSEM.pdf` - The full project report detailing the problem, methodology, and results.
-- `bearing_data.csv` - The dataset used for the analysis.
+- `ballbearings.dat.txt` and `ballbearings.txt` - The dataset used for the analysis.
+- `DataPaper.pdf` - The paper used for Reference
 
 ## Technologies Used
 R, RStudio, Linear Regression, Hypothesis Testing, Git
